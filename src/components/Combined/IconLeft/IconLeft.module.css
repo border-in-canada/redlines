@@ -1,0 +1,89 @@
+.Wrapper {
+    width: 180px;
+    height: 80px;
+}
+
+.Container {
+    width: 100%;
+    height: 56px;
+    position: relative;
+    border: solid 1px #999999;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 8px 16px 8px 10px;
+    background-color: white;
+}
+
+.Focus {
+    border: solid 1px #2965CC;
+    box-shadow: 0 0 3px #E4EBF8;
+}
+
+.Error {
+    border: solid 1px #E60000;
+    box-shadow: 0 0 0;              
+}
+
+.Filled {
+    border: solid 1px #999999;
+}
+
+.Disabled {
+    border: solid 1px #B3B3B3;
+    background-color: #F7F7F7;
+}
+
+.Container i {
+    position: absolute;
+    padding: 4px 8px 8px 0px;
+    color: #2965CC;
+    font-size: 24px;
+}
+
+.Error i {
+    color: #E60000;
+}
+
+.Disabled i {
+    color: #D7D7D7;
+}
+
+.Container label {
+    position: absolute;
+    top: 20px;
+    left: 42px;
+    pointer-events: none;
+    font-size: 16px;            
+    color: #767676;
+  }
+
+.Container input {
+    width: 100%;
+    height: 56px;
+    position: absolute;
+    left: 42px;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    font-size: 16px;
+    color: #000000;
+}
+
+.Container input:focus ~ label {
+    top: 8px;
+    font-size: 12px;
+}
+
+.Filled input ~ label {
+    top: 8px;
+    font-size: 12px;
+}
+
+.Container input::placeholder {
+    visibility: hidden;
+}
+
+.Container input:focus::placeholder {
+    visibility: visible;
+    color: #767676;
+}
