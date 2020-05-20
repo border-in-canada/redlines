@@ -1,0 +1,413 @@
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: local('ProximaNova-Regular'), url(../../static/media/ProximaNova-Regular.410504d4.otf) format('opentype');
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content:center;
+  margin: 5px;
+  background-color: #ccc;
+  font-family: 'ProximaNova-Regular';
+}
+
+
+.Dropdown_Wrapper__2bPbd {
+    width: 180px;
+    height: 80px;
+}
+
+.Dropdown_Container__157F5 {
+    width: 100%;
+    height: 56px;
+    position: relative;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.Dropdown_Container__157F5.Dropdown_Disabled__okTsL {
+    background-color: #F7F7F7;
+}
+
+.Dropdown_Container__157F5 label {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    pointer-events: none;
+    font-size: 16px;            
+    color: #767676;
+}
+
+.Dropdown_Container__157F5.Dropdown_Focus__1raIs label {
+    top: 8px;
+    bottom: 0;
+    font-size: 12px;
+}
+
+.Dropdown_Container__157F5.Dropdown_Filled__YBqni label {
+    top: 8px;
+    bottom: 0;
+    font-size: 12px;
+}
+
+.SelectStyle__menu-list::-webkit-scrollbar{
+    width: 14px;
+}
+
+.SelectStyle__menu-list::-webkit-scrollbar-thumb{
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    -webkit-border-radius: 7px;
+    background-color: #999999;
+    -webkit-box-shadow: inset -3px -3px 0px rgba(0, 0, 0, 0.05), inset 3px 3px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+.StatusText_StatusDiv__1wKO9{
+    min-width: 180px;
+    height: 24px;
+    padding-top: 4px;
+    font-size: 10pt;
+}
+
+.StatusText_Default__2bT_f span {
+    color: #767676;
+}
+
+.StatusText_Error__3RJ4U span {
+    color: #E60000;
+}
+
+.StatusText_Link__1mGlm span {
+    color: #2965CC; 
+}
+
+.StatusText_Success__1A_19 span {
+    color: #00804D;
+}
+.IconLeft_Wrapper__1LNjw {
+    width: 180px;
+    height: 80px;
+}
+
+.IconLeft_Container__3LAGJ {
+    width: 100%;
+    height: 56px;
+    position: relative;
+    border: solid 1px #999999;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 8px 16px 8px 10px;
+    background-color: white;
+}
+
+.IconLeft_Focus__2G3Pm {
+    border: solid 1px #2965CC;
+    box-shadow: 0 0 3px #E4EBF8;
+}
+
+.IconLeft_Error__pdqci {
+    border: solid 1px #E60000;
+    box-shadow: 0 0 0;              
+}
+
+.IconLeft_Filled__2-wRE {
+    border: solid 1px #999999;
+}
+
+.IconLeft_Disabled__RUNYs {
+    border: solid 1px #B3B3B3;
+    background-color: #F7F7F7;
+}
+
+.IconLeft_Container__3LAGJ i {
+    position: absolute;
+    padding: 4px 8px 8px 0px;
+    color: #2965CC;
+    font-size: 24px;
+}
+
+.IconLeft_Error__pdqci i {
+    color: #E60000;
+}
+
+.IconLeft_Disabled__RUNYs i {
+    color: #D7D7D7;
+}
+
+.IconLeft_Container__3LAGJ label {
+    position: absolute;
+    top: 20px;
+    left: 42px;
+    pointer-events: none;
+    font-size: 16px;            
+    color: #767676;
+  }
+
+.IconLeft_Container__3LAGJ input {
+    width: 100%;
+    height: 56px;
+    position: absolute;
+    left: 42px;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    font-size: 16px;
+    color: #000000;
+}
+
+.IconLeft_Container__3LAGJ input:focus ~ label {
+    top: 8px;
+    font-size: 12px;
+}
+
+.IconLeft_Filled__2-wRE input ~ label {
+    top: 8px;
+    font-size: 12px;
+}
+
+.IconLeft_Container__3LAGJ input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.IconLeft_Container__3LAGJ input:-ms-input-placeholder {
+    color: transparent;
+}
+
+.IconLeft_Container__3LAGJ input::-ms-input-placeholder {
+    color: transparent;
+}
+
+.IconLeft_Container__3LAGJ input::placeholder {
+    color: transparent;
+}
+
+.IconLeft_Container__3LAGJ input:focus::-webkit-input-placeholder {
+    color: #767676;
+}
+
+.IconLeft_Container__3LAGJ input:focus:-ms-input-placeholder {
+    color: #767676;
+}
+
+.IconLeft_Container__3LAGJ input:focus::-ms-input-placeholder {
+    color: #767676;
+}
+
+.IconLeft_Container__3LAGJ input:focus::placeholder {
+    color: #767676;
+}
+
+
+.IconRight_Wrapper__25KNH {
+    width: 180px;
+    height: 80px;
+}
+
+.IconRight_Container__3Tu23 {
+    width: 100%;
+    height: 56px;
+    position: relative;
+    border: solid 1px #999999;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 8px 42px 8px 16px;
+    background-color: white;
+}
+
+.IconRight_Focus__2C-af {
+    border: solid 1px #2965CC;
+    box-shadow: 0 0 3px #E4EBF8;
+}
+
+.IconRight_Error__21_SZ {
+    border: solid 1px #E60000;
+    box-shadow: 0 0 0;              
+}
+
+.IconRight_Filled__PsbyB {
+    border: solid 1px #999999;
+}
+
+.IconRight_Disabled__3IkVF {
+    border: solid 1px #B3B3B3;
+    background-color: #F7F7F7;
+}
+
+.IconRight_Container__3Tu23 i {
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    padding-left: 8px;
+    color: #2965CC;
+    font-size: 24px;
+}
+
+.IconRight_Error__21_SZ i {
+    color: #E60000;
+}
+
+.IconRight_Disabled__3IkVF i {
+    color: #D7D7D7;
+}   
+
+.IconRight_Container__3Tu23 label {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    pointer-events: none;
+    font-size: 16px;            
+    color: #767676;
+  }
+
+.IconRight_Container__3Tu23 input {
+    width: 100%;
+    height: 56px;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    font-size: 16px;
+    color: #000000;
+}
+
+.IconRight_Container__3Tu23 input:focus ~ label {
+    top: 8px;
+    font-size: 12px;
+}
+
+.IconRight_Filled__PsbyB input ~ label {
+    top: 8px;
+    bottom: 0;
+    font-size: 12px;
+}
+
+.IconRight_Container__3Tu23 input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.IconRight_Container__3Tu23 input:-ms-input-placeholder {
+    color: transparent;
+}
+
+.IconRight_Container__3Tu23 input::-ms-input-placeholder {
+    color: transparent;
+}
+
+.IconRight_Container__3Tu23 input::placeholder {
+    color: transparent;
+}
+
+.IconRight_Container__3Tu23 input:focus::-webkit-input-placeholder {
+    color: #767676;
+}
+
+.IconRight_Container__3Tu23 input:focus:-ms-input-placeholder {
+    color: #767676;
+}
+
+.IconRight_Container__3Tu23 input:focus::-ms-input-placeholder {
+    color: #767676;
+}
+
+.IconRight_Container__3Tu23 input:focus::placeholder {
+    color: #767676;
+}
+.SimpleCombined_Wrapper__1RxZd {
+    width: 180px;
+    height: 80px;
+}
+
+.SimpleCombined_Container__3UrrX {
+    width: 100%;
+    height: 56px;
+    position: relative;
+    border: solid 1px #999999;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 8px 40px 8px 16px;
+    background-color: white;
+}
+
+.SimpleCombined_Focus__1LS7d {
+    border: solid 1px #2965CC;
+    box-shadow: 0 0 3px #E4EBF8;
+}
+
+.SimpleCombined_Error__2OU4w {
+    border: solid 1px #E60000;            
+}
+
+.SimpleCombined_Filled__2vWBq {
+    border: solid 1px #999999;
+    box-shadow: 0 0 0;
+}
+
+.SimpleCombined_Disabled__42KOD {
+    border: solid 1px #B3B3B3;
+    background-color: #F7F7F7;
+}
+
+.SimpleCombined_Container__3UrrX label {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    pointer-events: none;
+    font-size: 16px;            
+    color: #767676;
+  }
+
+.SimpleCombined_Container__3UrrX input {
+    width: 100%;
+    height: 56px;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    font-size: 16px;
+    color: #000000;
+}
+
+.SimpleCombined_Container__3UrrX input:focus ~ label {
+    top: 8px;
+    font-size: 12px;
+}
+
+.SimpleCombined_Filled__2vWBq input ~ label {
+    top: 8px;
+    font-size: 12px;
+}
+
+.SimpleCombined_Container__3UrrX input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.SimpleCombined_Container__3UrrX input:-ms-input-placeholder {
+    color: transparent;
+}
+
+.SimpleCombined_Container__3UrrX input::-ms-input-placeholder {
+    color: transparent;
+}
+
+.SimpleCombined_Container__3UrrX input::placeholder {
+    color: transparent;
+}
+
+.SimpleCombined_Container__3UrrX input:focus::-webkit-input-placeholder {
+    color: #767676;
+}
+
+.SimpleCombined_Container__3UrrX input:focus:-ms-input-placeholder {
+    color: #767676;
+}
+
+.SimpleCombined_Container__3UrrX input:focus::-ms-input-placeholder {
+    color: #767676;
+}
+
+.SimpleCombined_Container__3UrrX input:focus::placeholder {
+    color: #767676;
+}
+
+/*# sourceMappingURL=main.5ec05768.chunk.css.map*/
