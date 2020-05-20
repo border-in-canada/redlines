@@ -53,6 +53,7 @@
 .Container label {
     position: absolute;
     top: 20px;
+    left: 16px;
     pointer-events: none;
     font-size: 16px;            
     color: #767676;
@@ -80,10 +81,9 @@
 }
 
 .Container input::placeholder {
-    visibility: hidden;
+    color: transparent;
 }
 
 .Container input:focus::placeholder {
-    visibility: visible;
     color: #767676;
 }

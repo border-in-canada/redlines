@@ -80,10 +80,10 @@
 }
 
 .Container input::placeholder {
-    visibility: hidden;
+    color: transparent;
 }
 
 .Container input:focus::placeholder {
-    visibility: visible;
     color: #767676;
 }
+
